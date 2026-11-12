@@ -1,3 +1,18 @@
+# AI Sales Outreach Automation, LangGraph (my fork)
+
+> Fork of [kaymen99/sales-outreach-automation-langgraph](https://github.com/kaymen99/sales-outreach-automation-langgraph) by **kaymen99**. All code and docs below are theirs. I keep this fork as a reference and for experiments.
+
+**Why it's in my toolkit:** it's a clear, well-structured example of agent-based lead research: pull the lead from a CRM, research the person and company, qualify, then write personalized outreach. I used it as a reference for the research → qualify → personalize stages in my own Python and Claude outbound pipeline.
+
+**What I look at in it:**
+- The LangGraph state graph that splits research into separate nodes (LinkedIn, website, news, social)
+- The multi-CRM adapter pattern (HubSpot, Airtable, Google Sheets) behind one schema
+- The report-then-email ordering: write the analysis first, then generate the outreach from it
+
+---
+
+## Original README
+
 # AI-Sales-Outreach-Automation
 
 ### 👉 Dive into the full article: [**AI Agents + LangGraph: The Winning Formula for Sales Outreach Automation**](https://dev.to/kaymen99/how-ai-automation-can-transform-your-sales-outreach-strategy-aop)  
